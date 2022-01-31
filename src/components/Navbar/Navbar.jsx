@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -6,17 +6,22 @@ const Navbar = () => {
     <nav>
       <div className="elements-wrapper">
         <div className="logo">
-          <a href="#" className="tada">
-            Wasif Ali
-          </a>
+        <div class='at-container'>
+          <div class='at-item' >
+            <a href="/" className="tada">
+                      Wasif Ali
+                    </a>
+          </div>
         </div>
-        <div className="nav-pages-links">
+          
+        </div>
+        <div className="nav-pages-links at-item">
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Contact</a>
           <a href="#">Blog</a>
         </div>
-        <div className="nav-social-links">
+        <div className="nav-social-links at-item">
           <a target="_blank" href="https://www.facebook.com/Waxif.Alee/">
             <i className="fab fa-facebook"></i>
           </a>

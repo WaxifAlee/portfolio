@@ -23,11 +23,15 @@ nav > .elements-wrapper > .logo {
   align-items: flex-start;
 }
 
-nav > .elements-wrapper > .logo > a {
+nav > .elements-wrapper > .logo a {
   font-family: "Reem Kufi";
   font-size: 1.5rem;
   padding: 5px;
   cursor: pointer;
+}
+
+nav > .elements-wrapper > .logo:hover a {
+  color: var(--green-primary);
 }
 
 nav a {
@@ -41,8 +45,8 @@ nav > .elements-wrapper > .nav-pages-links {
 }
 
 nav > .elements-wrapper > .nav-pages-links > a {
-  padding: 10px 15px;
-  margin: 10px;
+  padding: 10px 12px;
+  margin: 6px;
   line-height: 40px;
 }
 nav > .elements-wrapper > .nav-pages-links > a:hover {
@@ -56,42 +60,77 @@ nav > .elements-wrapper > .nav-social-links {
 nav > .elements-wrapper > .nav-social-links > a > i {
   padding: 0.4rem;
   font-size: 1.2rem;
+  animation: tada 1s ease;
 }
 
-.tada {
-  -webkit-animation-name: tada;
-  animation-name: tada;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
+div.at-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.at-item {
+  animation-name: roll-in-left;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
   animation-fill-mode: both;
+  /* shorthand 
+  animation: roll-in-left 1s ease 0s 1 normal none;
+  */
 }
-
-@keyframes tada {
+@keyframes roll-in-left {
   0% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-  10%,
-  20% {
-    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
-    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
-  }
-  30%,
-  50%,
-  70%,
-  90% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
-  }
-  40%,
-  60%,
-  80% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
   }
   100% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.nav-social-links .fa-facebook:hover {
+  color: #4267b2;
+  transition: 0.2s ease-in;
+}
+.nav-social-links .fa-instagram:hover {
+  color: #8a3ab9;
+  transition: 0.2s ease-in;
+}
+.nav-social-links .fa-twitter:hover {
+  color: #00acee;
+  transition: 0.2s ease-in;
+}
+.nav-social-links .fa-github:hover {
+  color: #171515;
+  transition: 0.2s ease-in;
+}
+
+nav {
+  animation-name: slit-in-horizontal;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  /* shorthand 
+  animation: slit-in-horizontal 1s ease 0s 1 normal none;
+  */
+}
+@keyframes slit-in-horizontal {
+  0% {
+    transform: translateZ(-800px) rotateX(90deg);
+    opacity: 0;
+  }
+  50% {
+    transform: translateZ(-160px) rotateX(87deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateZ(0) rotateX(0);
   }
 }
