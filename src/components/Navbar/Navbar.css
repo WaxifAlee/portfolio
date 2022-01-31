@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+
+/* background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: var(--white-front); */
+
+nav {
+  background: var(--blue-primary);
+  box-shadow: 0px 7px 4px rgba(46, 60, 116, 0.5);
+}
+
+nav > .elements-wrapper {
+  padding: 1.4rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > .elements-wrapper > .logo {
+  align-items: flex-start;
+}
+
+nav > .elements-wrapper > .logo > a {
+  font-family: "Reem Kufi";
+  font-size: 1.5rem;
+  padding: 5px;
+  cursor: pointer;
+}
+
+nav a {
+  color: var(--white-front);
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+nav > .elements-wrapper > .nav-pages-links {
+  align-items: center;
+}
+
+nav > .elements-wrapper > .nav-pages-links > a {
+  padding: 10px 15px;
+  margin: 10px;
+  line-height: 40px;
+}
+nav > .elements-wrapper > .nav-pages-links > a:hover {
+  cursor: pointer;
+  color: var(--green-primary);
+}
+
+nav > .elements-wrapper > .nav-social-links {
+  align-items: flex-end;
+}
+nav > .elements-wrapper > .nav-social-links > a > i {
+  padding: 0.4rem;
+  font-size: 1.2rem;
+}
+
+.tada {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes tada {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}

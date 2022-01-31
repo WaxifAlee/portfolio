@@ -1,0 +1,4 @@
+.top-section {
+  background: var(--background-gradient);
+  min-height: 100vh;
+}
