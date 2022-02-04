@@ -36,7 +36,7 @@ nav > .elements-wrapper > .logo:hover a {
 }
 
 nav > .elements-wrapper > .logo:hover {
-  animation: tada 1.3s ease-in;
+  animation: tada 0.8s ease-in;
 }
 
 nav a {
@@ -270,7 +270,8 @@ nav {
   margin-top: 5px;
 }
 .small-nav-wrapper > ul > li:hover {
-  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.308);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.4);
+  padding: 1rem;
 }
 
 @media (max-width: 780px) {
