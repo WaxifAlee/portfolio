@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className="logo">
             <div className="at-container">
               <div className="at-item menu-animation">
-                <a to="/">Wasif Ali</a>
+                <Link to="/">Wasif Ali</Link>
               </div>
             </div>
           </div>
@@ -26,24 +26,24 @@ const Navbar = () => {
           <div className="nav-social-links at-item">
             <a
               target="_blank"
-              rel="norefferer"
+              rel=" noreferrer"
               href="https://www.facebook.com/Waxif.Alee/"
             >
               <i className="fab fa-facebook"></i>
             </a>
             <a
               target="_blank"
-              rel="norefferer"
+              rel=" noreferrer"
               href="https://www.instagram.com/waxif.alee/"
             >
               <i className="fab fa-instagram"></i>
             </a>
-            <a target="_blank" rel="norefferer" href="/">
+            <a target="_blank" rel="" href="/">
               <i className="fab fa-twitter"></i>
             </a>
             <a
               target="_blank"
-              rel="norefferer"
+              rel=" noreferrer"
               href="https://www.github.com/WaxifAlee/"
             >
               <i className="fab fa-github"></i>
@@ -80,28 +80,28 @@ const Navbar = () => {
                 <div className="--small-nav_social-links">
                   <a
                     target="_blank"
-                    rel="norefferer"
+                    rel=" noreferrer"
                     href="https://www.facebook.com/Waxif.Alee/"
                   >
                     <i className="fab fa-facebook"></i>
                   </a>
                   <a
                     target="_blank"
-                    rel="norefferer"
+                    rel=" noreferrer"
                     href="https://www.twitter.com/WasifAl91051117/"
                   >
                     <i className="fab fa-twitter"></i>
                   </a>
                   <a
                     target="_blank"
-                    rel="norefferer"
+                    rel=" noreferrer"
                     href="https://www.instagram.com/waxif.alee/"
                   >
                     <i className="fab fa-instagram"></i>
                   </a>
                   <a
                     target="_blank"
-                    rel="norefferer"
+                    rel=" noreferrer"
                     href="https://www.github.com/WaxifAlee/"
                   >
                     <i className="fab fa-github"></i>
