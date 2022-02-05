@@ -1,0 +1,40 @@
+.footer {
+  background-color: var(--blue-primary);
+  color: var(--white-front);
+}
+
+.footer > .footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.footer > .footer-wrapper ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+.footer > .footer-wrapper a {
+  text-decoration: none;
+  color: var(--white-front);
+  font-family: "Poppins";
+  font-size: 12px;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.footer > .footer-wrapper a:hover {
+  transition: 0.2s all ease-in;
+  color: var(--green-primary);
+  box-shadow: 0 0 6px #000;
+}
+
+.footer .copyright {
+  text-align: center;
+}
+
+.footer .copyright code {
+  color: tomato;
+  font-size: 1rem;
+}

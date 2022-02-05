@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
+import Footer from "../Footer/Footer";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -113,6 +114,8 @@ const Navbar = () => {
         </div>
       </nav>
       <Outlet />
+
+      <Footer />
     </>
   );
 };
