@@ -37,7 +37,7 @@ const Footer = () => {
               <a
                 id="facebook-link"
                 target="_blank"
-                href="https://www.facebook.com/Waxif.Alee/"
+                href="https://www.facebook.com/Waxif.Alee/" rel="noreferrer"
               >
                 <i className="fab fa-facebook"></i> Facebook
               </a>
@@ -46,7 +46,7 @@ const Footer = () => {
               <a
                 id="linkedin-link"
                 target="_blank"
-                href="https://www.linkedin.com/in/wasif-ali-741b0918b/"
+                href="https://www.linkedin.com/in/wasif-ali-741b0918b/" rel="noreferrer"
               >
                 <i className="fab fa-linkedin"></i> LinkedIn
               </a>
@@ -55,7 +55,7 @@ const Footer = () => {
               <a
                 id="github-link"
                 target="_blank"
-                href="https://www.github.com/WaxifAlee/"
+                href="https://www.github.com/WaxifAlee/" rel="noreferrer"
               >
                 <i className="fab fa-github"></i> Github
               </a>
@@ -64,7 +64,7 @@ const Footer = () => {
               <a
                 id="instagram-link"
                 target="_blank"
-                href="https://www.instagram.com/Waxif.Alee/"
+                href="https://www.instagram.com/Waxif.Alee/" rel="noreferrer"
               >
                 <i className="fab fa-instagram"></i> Instagram
               </a>
