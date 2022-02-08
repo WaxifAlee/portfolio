@@ -1,0 +1,10 @@
+@keyframes loadBar {
+  0% {
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+    width: inherit;
+    opacity: 1;
+  }
+}
