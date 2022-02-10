@@ -31,6 +31,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  width: 100%;
 }
 
 .contact-container > .contact-wrapper {
@@ -65,9 +67,10 @@
 
 input[type="text"] {
   background: none;
-  padding: 0.8rem 0;
+  padding: 0.8rem;
   border: none;
-  border-bottom: 2px solid #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.705);
+  border-radius: 10px;
   outline: none;
 }
 
@@ -78,9 +81,21 @@ input::placeholder {
 textarea {
   width: 100%;
   resize: none;
-  overflow-y: scroll;
+  overflow-y: auto;
   padding: 1rem;
   outline: none;
+  background: none;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.664);
+  border-radius: 8px;
+  border: none;
+}
+
+textarea::placeholder {
+  color: #ddd;
+}
+
+textarea:focus {
+  animation: tada 1s ease;
 }
 
 form #submit {
@@ -96,4 +111,5 @@ form #submit {
 
 #submit:hover {
   animation: tada 1s ease-in-out;
+  border: 3px solid rgba(6, 142, 253, 0.287);
 }
