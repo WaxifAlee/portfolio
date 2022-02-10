@@ -89,6 +89,8 @@ textarea {
   box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.664);
   border-radius: 8px;
   border: none;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 textarea::placeholder {
@@ -113,4 +115,17 @@ form #submit {
 #submit:hover {
   animation: tada 1s ease-in-out;
   border: 3px solid rgba(6, 142, 253, 0.287);
+}
+
+.entry-container > h4 {
+  text-align: right;
+  font-family: "Poppins";
+}
+
+.danger {
+  color: rgb(245, 10, 2);
+}
+
+.safe {
+  color: #fff;
 }
