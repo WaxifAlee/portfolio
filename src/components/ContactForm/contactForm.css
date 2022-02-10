@@ -1,0 +1,99 @@
+@keyframes elastic {
+  0% {
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  30% {
+    -ms-transform: scaleX(1.25) scaleY(0.75);
+    transform: scaleX(1.25) scaleY(0.75);
+  }
+  40% {
+    -ms-transform: scaleX(0.75) scaleY(1.25);
+    transform: scaleX(0.75) scaleY(1.25);
+  }
+  60% {
+    -ms-transform: scaleX(1.15) scaleY(0.85);
+    transform: scaleX(1.15) scaleY(0.85);
+  }
+  100% {
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.contact-container {
+  min-height: 75vh;
+  background: linear-gradient(
+    134deg,
+    rgba(0, 255, 235, 1) 0%,
+    rgba(7, 58, 187, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container > .contact-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-top-right-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+  font-family: "Reem Kufi";
+  animation: elastic 1.5s ease-in;
+}
+
+.contact-elements h2 {
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.fa-smile {
+  color: var(--blue-primary);
+}
+
+.top-two-elements {
+  display: flex;
+}
+
+input[type="text"] {
+  background: none;
+  padding: 0.8rem 0;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+}
+
+input::placeholder {
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  overflow-y: scroll;
+  padding: 1rem;
+  outline: none;
+}
+
+form #submit {
+  padding: 1rem;
+  background: none;
+  color: #fff;
+  float: right;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 4px #000;
+  border-radius: 5px;
+}
+
+#submit:hover {
+  animation: tada 1s ease-in-out;
+}
