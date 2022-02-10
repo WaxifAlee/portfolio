@@ -33,33 +33,27 @@ const ContactForm = () => {
             Contact Me! <i className="fas fa-smile"></i>{" "}
           </h2>
           <form ref={form} autoComplete="off" action="" onSubmit={sendMail}>
-            <div className="top-two-elements">
-              <span className="entry-container">
-                <p>Full Name</p>
-                <input
-                  type="text"
-                  autoComplete="off"
-                  name="name"
-                  placeholder="John Smith"
-                  required
-                />
-              </span>
-              <span className="entry-container">
-                <p>Email</p>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="example@gmail.com"
-                  required
-                  autoComplete="off"
-                />
-              </span>
-            </div>
-            <span
-              id="subject-entry"
-              style={{ padding: "0.5rem" }}
-              className="entry-container"
-            >
+            <span className="entry-container">
+              <p>Full Name</p>
+              <input
+                type="text"
+                autoComplete="off"
+                name="name"
+                placeholder="John Smith"
+                required
+              />
+            </span>
+            <span className="entry-container">
+              <p>Email</p>
+              <input
+                type="text"
+                name="name"
+                placeholder="example@gmail.com"
+                required
+                autoComplete="off"
+              />
+            </span>
+            <span id="subject-entry" className="entry-container">
               <p>Subject</p>
               <input
                 type="text"
@@ -70,7 +64,7 @@ const ContactForm = () => {
               />
             </span>
             <br />
-            <span style={{ padding: "0.5rem" }} className="entry-container">
+            <span className="entry-container">
               <p>Message</p>
               <textarea
                 name="message"
