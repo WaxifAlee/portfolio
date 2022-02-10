@@ -52,6 +52,10 @@
   animation: elastic 1.5s ease-in;
 }
 
+.entry-container p {
+  padding: 0.6rem;
+}
+
 .contact-elements h2 {
   text-align: center;
   padding: 10px 15px;
@@ -61,16 +65,13 @@
   color: var(--blue-primary);
 }
 
-.top-two-elements {
-  display: flex;
-}
-
 input[type="text"] {
   background: none;
   padding: 0.8rem;
   border: none;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.705);
   border-radius: 10px;
+  width: 100%;
   outline: none;
 }
 
