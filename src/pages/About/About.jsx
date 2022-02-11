@@ -15,7 +15,8 @@ const About = () => {
             </div>
             <div className="section-main-container">
               <div className="section_text">
-                <h3><span style={{visibility: "hidden"}}>_____</span>Honestly speaking I'm a computer geek since birth. I got my first computer
+                <h2 style={{textAlign: "left", maxWidth: "fit-content", color: "#3749BE", padding: "15px"}}> Why I chose Programming? </h2>
+                <h3>Honestly speaking I'm a computer geek since birth. I got my first computer
                  when I was almost 5 years old and since then I've been exploring and experimenting with this technology.
                  I used to spend most of my time infront of computer as a kid either playing video games or learning something new 
                  about this interesting piece of innovation. That's how I taught myself writing code in multiple programming languages
@@ -26,9 +27,10 @@ const About = () => {
                 <img src={ComputerGraphics} alt="" />
               </div>
             </div>
-
           </div>
         </section>
+      
+      
       </div>
     </div>
   );
