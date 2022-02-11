@@ -1,0 +1,23 @@
+.section-container {
+  background: #a4e5e0;
+  min-height: 76vh;
+  border-top-right-radius: 12rem;
+  border-bottom-left-radius: 12rem;
+  animation: elastic 1s ease;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.507);
+}
+
+.--section__elements-container {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #0c6170;
+}
+
+.--section__elements-container > .about-me-text-container > h2 {
+  font-family: "Reem Kufi";
+  font-size: 2em;
+  word-spacing: 3px;
+}

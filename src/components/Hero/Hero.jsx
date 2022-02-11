@@ -4,6 +4,7 @@ import wasif from "../../assets/wasif.png";
 import Bars from "../Bars/Bars";
 
 const Hero = () => {
+
   return (
     <div className="hero-container">
       <div className="hero-wrapper">

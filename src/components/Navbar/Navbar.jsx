@@ -39,8 +39,8 @@ const Navbar = () => {
             >
               <i className="fab fa-instagram"></i>
             </a>
-            <a target="_blank" rel="" href="/">
-              <i className="fab fa-twitter"></i>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/wasif-ali-741b0918b">
+              <i className="fab fa-linkedin"></i>
             </a>
             <a
               target="_blank"
@@ -89,9 +89,9 @@ const Navbar = () => {
                   <a
                     target="_blank"
                     rel=" noreferrer"
-                    href="https://www.twitter.com/WasifAl91051117/"
+                    href="https://www.linkedin.com/in/wasif-ali-741b0918b"
                   >
-                    <i className="fab fa-twitter"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                   <a
                     target="_blank"

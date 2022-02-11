@@ -21,6 +21,15 @@
   }
 }
 
+@keyframes flip-horizontal {
+  0% {
+    transform: rotateX(-180deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
 .contact-container {
   min-height: 75vh;
   background: linear-gradient(
@@ -49,7 +58,7 @@
   border-top-right-radius: 10rem;
   border-bottom-left-radius: 10rem;
   font-family: "Reem Kufi";
-  animation: elastic 1.5s ease-in;
+  animation: flip-horizontal 1.5s ease-in;
 }
 
 .entry-container p {

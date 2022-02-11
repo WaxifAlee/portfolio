@@ -1,5 +1,5 @@
 import HomePage from "./containers/homePage";
-import About from "./pages/About";
+import About from "./pages/About/About";
 import Navbar from "./components/Navbar/Navbar";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
