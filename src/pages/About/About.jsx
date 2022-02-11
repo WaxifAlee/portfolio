@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css"
+import ComputerGraphics from "../../assets/computer.svg"
 
 const About = () => {
   return (
@@ -12,12 +13,20 @@ const About = () => {
               <hr style={{width:"60%", textAlign:"center", marginLeft:"20%", marginTop: "5px", border: "2px solid #0C6170", borderRadius: "5px"}} />
               <hr style={{width:"30%", textAlign:"center", marginLeft:"36%", marginTop: "5px", border: "2px solid #0C6170", borderRadius: "5px"}} />
             </div>
-            <div className="section-main-elements">
-              <div className="--section__elements-container-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam numquam natus quod fugit, ex molestias necessitatibus assumenda obcaecati delectus officia dolor itaque esse reiciendis dignissimos fuga temporibus architecto quisquam eveniet.</p>
+            <div className="section-main-container">
+              <div className="section_text">
+                <h3><span style={{visibility: "hidden"}}>_____</span>Honestly speaking I'm a computer geek since birth. I got my first computer
+                 when I was almost 5 years old and since then I've been exploring and experimenting with this technology.
+                 I used to spend most of my time infront of computer as a kid either playing video games or learning something new 
+                 about this interesting piece of innovation. That's how I taught myself writing code in multiple programming languages
+                  and developing the web. It felt like a puzzle which is exactly what my chaotic mind wants, problems to solve. I never saw
+                   programming as a carrier or a way to make money. I do it because I  <i className="fas fa-heart"></i>  it</h3>
               </div>
-              <div className="--section__elements-container-image"></div>
+              <div className="section-graphics">
+                <img src={ComputerGraphics} alt="" />
+              </div>
             </div>
+
           </div>
         </section>
       </div>

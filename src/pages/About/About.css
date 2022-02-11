@@ -8,16 +8,49 @@
 }
 
 .--section__elements-container {
-  padding: 4rem;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   color: #0c6170;
+  font-family: "Reem Kufi";
 }
 
-.--section__elements-container > .about-me-text-container > h2 {
-  font-family: "Reem Kufi";
-  font-size: 2em;
-  word-spacing: 3px;
+.about-me-text-container {
+  padding: 2rem;
+}
+
+.section-main-container {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-main-container > .section_text {
+  max-width: 45%;
+  overflow-y: auto;
+}
+
+.section-main-container img {
+  width: 28rem;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .section-main-container > .section_text {
+    max-width: 60%;
+    max-height: 250px;
+  }
+  .section-main-container img {
+    width: 20rem;
+    padding: 1rem;
+  }
+}
+@media (max-width: 376px) {
+  .section-main-container img {
+    width: 18rem;
+    padding: 1rem;
+  }
 }
